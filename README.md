@@ -11,7 +11,27 @@ Este é um projeto de chatbot desenvolvido em Python, utilizando Processamento d
 
 ## 🏗 Estrutura do Projeto
 
-chatbot_project/ ├── README.md # Documentação do projeto ├── requirements.txt # Dependências do Python ├── app.py # Arquivo principal (interface web com Flask) ├── config.py # Configurações gerais (se necessário) ├── data/ │ └── intents.json # Arquivo JSON com intenções, padrões e respostas └── chatbot/ ├── init.py # Inicializa o pacote chatbot ├── chatbot.py # Lógica principal do chatbot (processamento de input e resposta) └── nlp.py # Funções de NLP (tokenização, limpeza do texto, etc.)
+chatbot/
+├── __pycache__/               # Arquivos de cache do Python
+├── __init__.py                # Arquivo de inicialização do módulo
+├── chatbot.py                 # Script principal do chatbot
+├── nlp.py                     # Módulo de processamento de linguagem natural
+├── data/                      # Dados utilizados pelo chatbot
+│   └── intents.json           # Arquivo JSON com intenções e respostas
+├── templates/                 # Templates HTML para a interface do chatbot
+│   └── index.html             # Página principal da interface
+├── venv/                      # Ambiente virtual Python
+│   ├── include/               # Inclusões do ambiente virtual
+│   ├── Lib/                   # Bibliotecas do ambiente virtual
+│   ├── Scripts/               # Scripts do ambiente virtual
+│   ├── gitignore              # Arquivo .gitignore para o ambiente virtual
+│   └── pyvenv.cfg             # Configuração do ambiente virtual
+├── app.py                     # Aplicação principal (Flask/Django, etc.)
+├── config.py                  # Arquivo de configuração
+├── LICENSE                    # Licença do projeto
+├── README.md                  # Documentação do projeto
+├── requirements.txt           # Dependências do projeto
+└── setup.py                   # Script de instalação do projeto
 
 ---
 
