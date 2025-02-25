@@ -1,0 +1,50 @@
+{
+    "greeting": {
+        "patterns": ["Oi", "Olá", "Bom dia", "Boa tarde", "Boa noite"],
+        "responses": ["Olá, tudo bem?", "Oi, como posso ajudar?"]
+    },
+    "goodbye": {
+        "patterns": ["Tchau", "Adeus", "Até mais"],
+        "responses": ["Tchau!", "Até logo!"]
+    },
+    "hours": {
+        "patterns": ["Qual o horário?", "Que horas são?", "Me informe o horário"],
+        "responses": ["Eu não tenho um relógio, mas você pode conferir o seu dispositivo."]
+    },
+    "thanks": {
+        "patterns": ["Obrigado", "Valeu", "Agradeço"],
+        "responses": ["De nada!", "Por nada!", "Sempre à disposição!"]
+    },
+    "weather": {
+        "patterns": ["Como está o tempo?", "Qual a previsão do tempo?", "Está chovendo?", "Está sol?"],
+        "responses": ["Eu não tenho acesso à previsão do tempo, mas você pode verificar em um site ou app de meteorologia."]
+    },
+    "support": {
+        "patterns": ["Preciso de ajuda", "Como faço isso?", "Não consigo fazer algo", "Suporte técnico"],
+        "responses": ["Claro, posso tentar ajudar. O que você precisa?", "Estou aqui para ajudar. Qual é o problema?"]
+    },
+    "joke": {
+        "patterns": ["Me conte uma piada", "Quero rir", "Tem uma piada?"],
+        "responses": ["Por que o esqueleto não brigou? Porque ele não tem estômago para isso!", "O que o pato disse para a pata? Vem quá!"]
+    },
+    "compliment": {
+        "patterns": ["Você é incrível", "Adoro conversar com você", "Você é muito inteligente"],
+        "responses": ["Obrigado! Fico feliz em ajudar.", "Você é muito gentil! Estou aqui para o que precisar."]
+    },
+    "food": {
+        "patterns": ["Estou com fome", "O que devo comer?", "Qual sua comida favorita?"],
+        "responses": ["Que tal uma pizza? Ou talvez um sushi?", "Eu não como, mas adoraria te ajudar a escolher uma refeição!"]
+    },
+    "music": {
+        "patterns": ["Qual música devo ouvir?", "Me recomende uma música", "O que você acha dessa música?"],
+        "responses": ["Que tal ouvir algo relaxante, como música clássica?", "Depende do seu humor! Rock, pop, jazz... o que você prefere?"]
+    },
+    "news": {
+        "patterns": ["Quais as notícias de hoje?", "O que está acontecendo no mundo?", "Me informe as últimas notícias"],
+        "responses": ["Eu não tenho acesso a notícias em tempo real, mas você pode conferir em sites de notícias ou apps especializados."]
+    },
+    "fun_fact": {
+        "patterns": ["Me conte um fato interessante", "Qual é um fato curioso?", "Sabia que..."],
+        "responses": ["Sabia que os ursos-polares são canhotos?", "Um fato interessante: o mel nunca estraga!"]
+    }
+}
