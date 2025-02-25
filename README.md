@@ -41,3 +41,28 @@ pip install -r requirements.txt
 python app.py
 
 O chatbot estará disponível em http://127.0.0.1:5000/
+
+## 📄 Exemplo de Uso
+1. Abra a interface web e envie uma mensagem para o chatbot.
+2. Digite mensagens como:
+    "Oi" → O bot pode responder: "Olá, tudo bem?"
+    "Obrigado" → O bot pode responder: "Por nada!"
+    "Qual o horário?" → O bot pode responder com uma resposta genérica.
+
+## 🎯 Melhorias Futuras
+    Implementação de aprendizado de máquina para respostas mais avançadas.
+    Integração com APIs para buscar informações em tempo real.
+    Melhorar a interface web com Bootstrap ou React.
+
+## 📌 Contribuição
+Sinta-se à vontade para contribuir! Para isso:
+
+1. Faça um Fork deste repositório.
+2. Crie uma branch: git checkout -b minha-nova-feature
+3. Faça suas alterações e commit: git commit -m "Adicionando nova feature"
+4. Envie para o repositório: git push origin minha-nova-feature
+5. Abra um Pull Request!
+
+## 🔗 Contato
+📧 Email: lagecomg@gmail.com
+🔗 [LinkedIn](www.linkedin.com/in/pedro-lage-9579742a1)
