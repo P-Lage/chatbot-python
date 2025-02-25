@@ -27,9 +27,13 @@ cd chatbot-python
 ### 2️⃣ Criar e Ativar o Ambiente Virtual
 
 python -m venv venv
-# Ativar no Windows:
+
+Ativar no Windows:
+
 venv\Scripts\activate
-# Ativar no Linux/macOS:
+
+Ativar no Linux/macOS:
+
 source venv/bin/activate
 
 ### 3️⃣ Instalar Dependências
