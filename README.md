@@ -17,8 +17,6 @@ Este é um projeto de chatbot desenvolvido em Python que atua como tutor de fís
 
 ## 🏗 Estrutura do Projeto
 
-![](estrutura.png)
-
 ```plaintext
 chatbot-python/
 ├── chatbot/
