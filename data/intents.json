@@ -1,18 +1,74 @@
 {
   "greeting": {
-      "patterns": ["Oi", "Olá", "Bom dia", "Boa tarde", "Boa noite"],
-      "responses": ["Olá, tudo bem?", "Oi, como posso ajudar?"]
+    "patterns": ["Oi", "Olá", "Bom dia", "Boa tarde", "Boa noite"],
+    "responses": ["Olá! Sou o Feyn, seu tutor de física. Como posso ajudar?", "Oi! Pronto para aprender física? Por onde vamos começar?"]
   },
   "goodbye": {
-      "patterns": ["Tchau", "Adeus", "Até mais"],
-      "responses": ["Tchau!", "Até logo!"]
-  },
-  "hours": {
-      "patterns": ["Qual o horário?", "Que horas são?", "Me informe o horário"],
-      "responses": ["Eu não tenho um relógio, mas você pode conferir o seu dispositivo."]
+    "patterns": ["Tchau", "Adeus", "Até mais"],
+    "responses": ["Até logo! Lembre-se: tudo é relativo, até sua nota! 😉", "Volte sempre que precisar de ajuda com física!"]
   },
   "thanks": {
-      "patterns": ["Obrigado", "Valeu", "Agradeço"],
-      "responses": ["De nada!", "Por nada!", "Sempre à disposição!"]
+    "patterns": ["Obrigado", "Valeu", "Agradeço"],
+    "responses": ["De nada! Qualquer dúvida é só perguntar.", "Fico feliz em ajudar! Bons estudos!"]
+  },
+  "uniform_motion": {
+    "patterns": ["O que é movimento uniforme?", "Defina MU", "Como funciona movimento uniforme?"],
+    "responses": [
+      "Movimento Uniforme (MU) ocorre quando um corpo percorre distâncias iguais em intervalos de tempo iguais, com velocidade constante. A função horária é s = s₀ + vt, onde s é posição, s₀ posição inicial, v velocidade e t tempo."
+    ]
+  },
+  "average_speed": {
+    "patterns": ["Como calcular velocidade média?", "Fórmula da velocidade média", "Cálculo de vm"],
+    "responses": [
+      "Velocidade média = Variação do espaço / Variação do tempo (vₘ = Δs/Δt). Exemplo: Se um carro percorre 300 km em 4 horas, vₘ = 300/4 = 75 km/h"
+    ]
+  },
+  "relative_velocity": {
+    "patterns": ["O que é velocidade relativa?", "Como calcular velocidade entre dois móveis?", "Problemas de encontro de móveis"],
+    "responses": [
+      "Para móveis em sentidos opostos: vᵣ = v₁ + v₂. Mesmo sentido: vᵣ = |v₁ - v₂|. Exemplo: Dois trens de 100m a 20m/s e 30m/s em sentidos opostos levam 4s para ultrapassar completamente."
+    ]
+  },
+  "significant_figures": {
+    "patterns": ["O que são algarismos significativos?", "Importância dos algarismos em medidas", "Como contar algarismos significativos?"],
+    "responses": [
+      "São dígitos que representam uma medida com precisão. Regras: 1) Zeros à esquerda não são significativos 2) Zeros entre dígitos ou à direita contam. Ex: 0,0075 tem 2 algs. sig., 150,0 tem 4."
+    ]
+  },
+  "reference_frame": {
+    "patterns": ["O que é referencial?", "Importância do sistema de referência", "Como a trajetória depende do observador?"],
+    "responses": [
+      "Referencial é o ponto de vista para analisar movimento. Ex: Uma bola caindo no trem parece vertical para quem está dentro, mas parabólica para quem está fora. Página 17 do material explica isso!"
+    ]
+  },
+  "problem_solving": {
+    "patterns": ["Resolva um problema de MU", "Exemplo de movimento uniforme", "Exercício de velocidade constante"],
+    "responses": [
+      "Problema: Dois trens de 200m e 300m com velocidades 40km/h e 60km/h. Tempo de ultrapassagem? Solução: 1) Converter velocidades para m/s 2) Calcular velocidade relativa 3) Dividir soma dos comprimentos pela velocidade relativa."
+    ]
+  },
+  "unit_conversion": {
+    "patterns": ["Converter km/h para m/s", "Como transformar unidades de velocidade?", "Relação entre m/s e km/h"],
+    "responses": [
+      "Para converter km/h → m/s: divida por 3,6. Ex: 108 km/h = 30 m/s. Para m/s → km/h: multiplique por 3,6. Fórmula: 1 m/s = 3,6 km/h (página 20 do material)"
+    ]
+  },
+  "trajectory": {
+    "patterns": ["O que é trajetória?", "Como a trajetória depende do referencial?", "Exemplo de trajetória relativa"],
+    "responses": [
+      "Trajetória é o caminho descrito por um corpo. Depende do referencial! Ex: Uma bola caindo no trem tem trajetória reta para passageiros, mas parábola para quem está na plataforma (página 18)"
+    ]
+  },
+  "exercises": {
+    "patterns": ["Mostre um exercício resolvido", "Exemplo de cálculo com MU", "Problema de física resolvido"],
+    "responses": [
+      "Um ônibus passa pelo km 30 às 6h e pelo km 240 às 9h30. Velocidade média? Solução: Δs = 210 km, Δt = 3,5h → vₘ = 60 km/h"
+    ]
+  },
+  "movement_types": {
+    "patterns": ["Diferença entre movimento progressivo e retrógrado", "O que significa velocidade negativa?", "Como identificar sentido do movimento"],
+    "responses": [
+      "Progressivo: Espaço aumenta (v > 0). Retrógrado: Espaço diminui (v < 0). Ex: s = 50 - 10t → movimento retrógrado a 10 m/s (página 21)"
+    ]
   }
 }
