@@ -1,62 +1,99 @@
-# 🤖 Chatbot em Python com NLP
+# 🤖 Chatbot Python com NLP
 
-Este é um projeto de chatbot desenvolvido em Python, utilizando Processamento de Linguagem Natural (NLP) para interpretar e responder a perguntas em linguagem natural. Ele inclui uma interface web usando Flask.
+Este é um projeto de chatbot desenvolvido em Python que atua como tutor de física para alunos do ensino médio. Utilizando Processamento de Linguagem Natural (NLP) com **NLTK**, o chatbot interpreta perguntas em linguagem natural e responde com base em intenções pré-definidas. A interface web interativa é construída com **Flask**.
 
 ## 📌 Funcionalidades
 
-- Responde a perguntas comuns com base em intenções definidas.
-- Utiliza **NLTK** para pré-processamento do texto.
-- Interface web interativa construída com **Flask**.
-- Estrutura modular para facilitar a manutenção e expansão.
+- Responde a dúvidas comuns de física com base em intenções definidas.
+- Utiliza **NLTK** para pré-processamento do texto (tokenização, remoção de pontuações e stopwords).
+- Interface web interativa que simula um ambiente de chat.
+- Estrutura modular, facilitando a manutenção e futuras expansões.
+
+## 🎥 Demonstração do Projeto
+
+![](Exemplo_1.png)
+
+![](Exemplo_2.png)
 
 ## 🏗 Estrutura do Projeto
 
 ![](estrutura.png)
 
----
+```plaintext
+chatbot-python/
+├── chatbot/
+│   ├── __init__.py
+│   ├── chatbot.py
+│   ├── nlp.py
+│   ├── data/
+│   │   └── intents.json
+│   ├── static/
+│   │   └── logo.png
+│   └── templates/
+│       └── index.html
+├── venv/
+├── app.py
+├── stup.py
+├── config.py
+├── setup.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+├── estrutura.png
+└── LICENSE
+```
 
 ## 🚀 Como Executar o Projeto
 
-### 1️⃣ Clonar o Repositório
+### Clonar o Repositório
 
 ```bash
 git clone https://github.com/SEU_USUARIO/chatbot-python.git
 cd chatbot-python
 ```
+### Criar e Ativar o Ambiente Virtual
 
-### 2️⃣ Criar e Ativar o Ambiente Virtual
-
+```bash
 python -m venv venv
 
-Ativar no Windows:
-
 venv\Scripts\activate
+```
 
-Ativar no Linux/macOS:
+### Instalar Depêndecias
 
-source venv/bin/activate
-
-### 3️⃣ Instalar Dependências
-
+```bash
 pip install -r requirements.txt
+```
 
-### 4️⃣ Executar o Servidor Flask
+### Baixar os Pacotes do NLTK
 
+```bash
+python setup.py
+```
+
+### Executar o Servidor Flask
+
+```bash
 python app.py
+```
 
-O chatbot estará disponível em http://127.0.0.1:5000/
+O chatbot estará disponível em http://127.0.0.1:5000/.
 
 ## 📄 Exemplo de Uso
-1. Abra a interface web e envie uma mensagem para o chatbot.
-2. Digite mensagens como:
-    "Oi" → O bot pode responder: "Olá, tudo bem?"
-    "Obrigado" → O bot pode responder: "Por nada!"
-    "Qual o horário?" → O bot pode responder com uma resposta genérica.
+
+1. Acesse a interface web e envie uma mensagem para o chatbot.
+2. Exemplos de mensagens:
+    "Oi" → O bot responde: "Olá! Sou o Feyn, seu tutor de física. Como posso ajudar?"
+    "Obrigado" → O bot responde: "De nada! Qualquer dúvida é só perguntar."
+    "O que é movimento uniforme?" → O bot explica o conceito de movimento uniforme.
 
 ## 🎯 Melhorias Futuras
-    Implementação de aprendizado de máquina para respostas mais avançadas.
-    Integração com APIs para buscar informações em tempo real.
-    Melhorar a interface web com Bootstrap ou React.
+
+* Integração com modelos de aprendizado de máquina para respostas mais avançadas.
+* Utilização de modelos pré-treinados (como BERT) para aprimorar a compreensão do texto.
+* Expansão da base de conhecimento para incluir mais tópicos de física.
+* Melhoria da interface web com frameworks modernos (Bootstrap, React).
+* Implementação de um sistema de feedback para aprimoramento contínuo.
 
 ## 📌 Contribuição
 Sinta-se à vontade para contribuir! Para isso:
