@@ -1,4 +1,5 @@
 import nltk
+import flask
 
 print("Baixando pacotes do NLTK...")
 nltk.download('punkt')
